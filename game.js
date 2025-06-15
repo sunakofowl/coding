@@ -30,6 +30,9 @@ const determineWinner = (UserChoice, computerChoice) => {
     }
 }
 
-console.log(getChoices('paper'))
-console.log(getComputerChoice())
-console.log(determineWinner(getChoice, getComputerChoice()))
+const userChoice = getChoices('paper');
+const computerChoice = getComputerChoice();
+
+console.log(userChoice)
+console.log(computerChoice)
+console.log(determineWinner(userChoice, computerChoice))
